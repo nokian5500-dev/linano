@@ -1,17 +1,17 @@
 {
     "api": {
         "id": null,
-        "worker-id": "51.107.24.5"
+        "worker-id": "ub"
     },
     "http": {
         "enabled": true,
         "host": "127.0.0.1",
         "port": 4966,
         "access-token": "12345",
-        "restricted": true
+        "restricted": false
     },
     "autosave": true,
-    "background": true,
+    "background": false,
     "colors": true,
     "title": true,
     "randomx": {
@@ -29,7 +29,7 @@
         "enabled": true,
         "huge-pages": true,
         "huge-pages-jit": true,
-        "hw-aes": null,
+        "hw-aes": true,
         "priority": null,
         "memory-pool": false,
         "yield": true,
