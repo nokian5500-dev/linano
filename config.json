@@ -5,20 +5,20 @@
     },
     "http": {
         "enabled": true,
-        "host": "0.0.0.0",
+        "host": "127.0.0.1",
         "port": 4966,
-        "access-token": null,
+        "access-token": "12345",
         "restricted": true
     },
     "autosave": true,
-    "background": false,
+    "background": true,
     "colors": true,
     "title": true,
     "randomx": {
         "init": -1,
-        "init-avx2": -1,
+        "init-avx2": 1,
         "mode": "auto",
-        "1gb-pages": false,
+        "1gb-pages": true,
         "rdmsr": true,
         "wrmsr": true,
         "cache_qos": false,
@@ -28,7 +28,7 @@
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
+        "huge-pages-jit": true,
         "hw-aes": null,
         "priority": null,
         "memory-pool": false,
@@ -87,8 +87,8 @@
         "nvml": true
     },
     "log-file": null,
-    "donate-level": 1,
-    "donate-over-proxy": 1,
+    "donate-level": 0,
+    "donate-over-proxy": 0,
     "pools": [
         {
             "algo": null,
@@ -97,13 +97,13 @@
             "user": "85fHndEnn5geDRAuWvnrvTR8PE8KmztiQev95rDoQqvyAdibnfSGQX2Ww4V4XadbX6VxbZ1Q2uWYcUWjhqxseojY4o2GTeb",
             "pass": null,
             "rig-id": null,
-            "nicehash": false,
+            "nicehash": true,
             "keepalive": true,
             "enabled": true,
             "tls": true,
             "sni": false,
             "tls-fingerprint": null,
-            "daemon": false,
+            "daemon": true,
             "socks5": null,
             "self-select": null,
             "submit-to-origin": false
